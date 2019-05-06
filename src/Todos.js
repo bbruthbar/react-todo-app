@@ -70,6 +70,9 @@ class Todos extends Component {
   render() {
     return (
       <div className="wrapper">
+        <p>View Code on <a rel="noopener noreferrer" href="https://github.com/bbruthbar/react-todo-app" target="_blank">
+        My Github account</a>.</p>
+        <hr />
         <input
           type="text"
           name="todoItem"

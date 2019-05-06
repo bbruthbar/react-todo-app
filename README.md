@@ -6,7 +6,7 @@ Another todo list.
 * localStorage
 
 ## Demo
-View project demo at
+View project demo at [https://www.ruthcirillo.info/react-todo-app/](https://www.ruthcirillo.info/react-todo-app/)
 
 ## Installation
 
@@ -17,3 +17,7 @@ $ npm install
 $ npm start
 ```
 Go to `http://localhost:3000`.
+
+## TODO
+* Style form elements.
+* Conditional for display of list.
