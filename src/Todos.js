@@ -14,7 +14,8 @@ class Todos extends Component {
       })
     }
   };
-  componentDidUpdate() {
+  updateLocalStorage() {
+    console.log('call only on add');
     localStorage.setItem('myTodosList', JSON.stringify(this.state.todos))
   };
   handleChange = e => {
@@ -38,7 +39,7 @@ class Todos extends Component {
       } else {
         alert("Enter something to do.");
       }
-    })
+    }, this.updateLocalStorage)
   };
   handleClearTodo = () => {
     this.setState({
